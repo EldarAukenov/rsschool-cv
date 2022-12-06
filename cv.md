@@ -1,7 +1,6 @@
 # Eldar Aukenov
 ----
 ## Junior Frontend Developer
-====
 ## Contact Information:
 **Phone:** +77785762342
 **E-mail:** zeustop11123@gmail.com
