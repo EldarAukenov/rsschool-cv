@@ -15,13 +15,3 @@ I am a student, currently living in Kazakhstan, Karganda. Have a lot of hobbies,
 * Adobe Photoshop, Illustrator
 * Git
 * VS Code
-====
-## Courses
-* HTML and CSS Stage 0 in RS_School (in progress)
-* STEP IT Academy
-====
-## Languages
-* Russian (Native)
-* Kazakh (Basic)
-* English (Intermediate +)
-* French (Basic)
