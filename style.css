@@ -1,33 +1,56 @@
 .main{
     font-size: 50px;
     color: #000000;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
   
 }
 .contact-information{
     color: #000000;
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 .myself{
     font-size: 14px;
     color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 body{
     background-color: rgb(243, 224, 104);
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 .end{
     font-size: 14px;
     color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 .Skills{
     font-size: 14px
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 
 }
 .Courses{
     font-size: 14px
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 
 }
 .Languages{
     font-size: 14px
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
