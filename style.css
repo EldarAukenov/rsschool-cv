@@ -1,7 +1,11 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 .main{
     font-size: 50px;
     color: #000000;
-  
 }
 .contact-information{
     color: #000000;
@@ -34,4 +38,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.photo{
+    margin-top: 100px;
 }
