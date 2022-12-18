@@ -8,56 +8,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <article>
-          <header>
-            <h1 class="main">I am Aukenov Eldar</h1>
-            <nav class="move">
-              <a href="#content">Contact-information</a> 
-              <a href="#About_myself">About myself</a>
-              <a href="#Skills">Skills</a>
-              <a href="#Courses">Courses</a>
-              <a href="#Languages">Languages</a>
-            </nav>
-            <h2>i am a Junior Frontend Developer</h2>
-            <img src="e223626a-5f20-4ae9-86ed-bc20259809c5.jpg" alt="My photo" width="250 px" height="320 px">
-          </header>
-          <br>
-          <h2 id="content"> Contact Information:</h2>
-            <p class="contact-information">Phone: +77785762342E-mail: zeustop11123@gmail.com<p>
-          <h2 id="About_myself">About Myself<h2>  
-            <P class="myself">I am a student, currently living in Kazakhstan, Karganda. Have a lot of hobbies, for example: chess, swimming, learning new languages and etc.<p>
-          <h2 id="#Skills">Skills<h2>
-            <ol class="Skills">
-              <li>HTML, CSS</li>
-              <li>Python</li>
-              <li>Adobe Photoshop, Illustrator</li>
-              <li>Git</li>
-              <li>VS Code</li>
-            </ol>
-          <h2 id="#Courses">Courses</h2>
-            <ol class="Courses">
-              <li>HTML and CSS Stage 0 in RS_School (in progress)</li>
-              <li>STEP IT Academy</li>
-            </ol>
-          <h2 id="#Languages">Languages</h2>  
-            <ol class="Languages">
-              <li>Russian (Native)</li>
-              <li>Kazakh (Basic)</li>
-              <li>English (Intermediate +)</li>
-              <li>French (Basic)</li>
-            </ol>
-          <footer>
-            <address class="end">
-              <p>Eldar Aukenov</p>
-              <a href="https://github.com/eldaraukenov">Github link: \eldaraukenov</a>
-              <time>18.12.2022</time>
-              <img src="rs_school_js.svg" alt="Logo" width="100 px" height="100 px" class="photo">
-              <a href="https://rs.school/js/">link on my course in RS_School</a>
-            </p>
-            </address> 
-          </footer>
-        </article>
-      </main>
+    <main class="wrapper">
+      <header>
+        <nav>
+          <ul class="nav-list">
+            <li><a class="nav-list-item" href="#education">Education</a></li>
+            <li><a class="nav-list-item" href="#experience">Experience</a></li>
+            <li><a class="nav-list-item" href="#references">References</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="wrapper-container">
+        <aside>
+          <figure class="photo">
+          <img src="photo.jpg" alt="Photo" height="300px">
+          </figure>
+          <div class="contact">
+            <h2 class="heading-2">Contact me</h2>
+            <hr>
+            <a href="discord.com" class="text">
+              Discord
+            </a>
+            <a href="github.com" class="text">
+              Github
+            </a>
+          </div>
+          
+        </aside>
+        <section class="container">
+          <h1 class="heading">Eldar Aukenov</h1>
+          <p class="subheading">Junior Front-end Developer</p>
+          <hr>
+          <div id="education">
+            <h2>Education</h2>
+          </div>
+          <hr>
+          <p class="subheading">09/2020 – 04/2021
+            Rolling Scopes School</p>
+
+          <hr>
+          <p class="subheading">from 2015 to 2022 In English center EDUgrad (steel study got a B2)</p>
+          <hr>
+          <p class="subheading">02/2020 – 06/2020
+          IT Academy
+          Course: Web Application Development With JavaScript (advanced)</p>
+          <hr>
+          <p class="subheading">10/2019 – 02/2020
+            IT Academy
+            Course: Website Development With HTML, CSS & JavaScript</p>  
+          <div id="experience">
+            <h2>Experience</h2>
+            <hr>
+          <p class="subheading">
+          In 2020 ended It Step Academy 
+          </p>
+            <hr>
+            <p class="subheading">In 2016 reached an A2 level of English</p>
+            <hr>
+            <p class="subheading">in 2020 reached an B2 level of English(Finally)<p>
+            <hr>  
+            <p class="subheading">09/2021 – 11/2021
+              IBBY
+              Role: Junior Front-end Developer
+              Tools & Technologies: Drupal 8, composer, twig, gulp, Gitlab, Jira, phpstorm</p>  
+            <hr>
+            <p class="subheading">09/2021 – 11/2021
+              02/2020 – 06/2020
+             IT Academy
+             Project name: to-do list app
+             Role: Junior Front-end Developer
+             Tools & Technologies: ES6, MVC, SPA, Modules, AJAX, Node.   js,         npm</p>  
+          </div>
+          <div id="references">References</div>
+        </section>
+      </div>
+    </main>
 </body>
 </html>
