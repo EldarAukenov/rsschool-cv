@@ -1,5 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.main{
+    font-size: 50px;
+    color: #000000;
+    
+  
+}
+.contact-information{
+    color: #000000;
+    font-size: 14px;
+}
+.myself{
+    font-size: 14px;
+    color: #000000;
+}
+body{
+    background-color: rgb(243, 224, 104);
+}
+.end{
+    font-size: 14px;
+    color: #000000;
+}
+.Skills{
+    font-size: 14px
+
+}
+.Courses{
+    font-size: 14px
+
+}
+.Languages{
+    font-size: 14px
+
 }
