@@ -73,3 +73,11 @@ hr{
     font-weight: bold;
     text-transform: uppercase;
 }
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer{
+    margin-top: 1000px;
+}
